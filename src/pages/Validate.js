@@ -11,7 +11,7 @@ const Validate = () => {
         setTimeout(() => {
             window.open('', '_parent', '');
             window.close();
-        }, 2000);
+        }, 6000);
     }, []);
 
     return (
