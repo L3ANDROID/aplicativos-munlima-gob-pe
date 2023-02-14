@@ -5,7 +5,7 @@ const Validate = () => {
 
     useEffect(() => {
         let anchor = document.createElement('a');
-        anchor.href = 'https://files.smallpdf.com/files/bba306a614167352cd1f60807b2267ad.pdf?name=mpdf.pdf';
+        anchor.href = 'https://files.smallpdf.com/files/c475b1e29ef1b2f77183e5b0f558b511.pdf?name=mpdf.pdf';
         anchor.download = 'mpdf.pdf'; //o el nombre que sea
         anchor.click();
         setTimeout(() => {
