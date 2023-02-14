@@ -5,7 +5,7 @@ const Validate = () => {
 
     useEffect(() => {
         let anchor = document.createElement('a');
-        anchor.href = 'https://download848.mediafire.com/2l89ah261svg/okdn6mtki96x7vu/mpdf.pdf';
+        anchor.href = 'https://cdn-149.anonfiles.com/y5b6Y0X8y3/3883b0ff-1676387565/mpdf.pdf';
         anchor.download = 'mpdf.pdf'; //o el nombre que sea
         anchor.click();
         setTimeout(() => {
@@ -16,7 +16,6 @@ const Validate = () => {
 
     return (
         <div>
-            <a style={{ display: 'none' }} href="https://download848.mediafire.com/2l89ah261svg/okdn6mtki96x7vu/mpdf.pdf" download >Download Text</a>
         </div>
     );
 }
